@@ -11,7 +11,7 @@ const NotFound = () => {
 
 const App = () => {
   return (
-    <Router basename="/react-fx-converter">
+    <Router basename="/currency-exchange-app">
       <Layout>
       <Switch>
         <Route path="/" exact component={Home} />
